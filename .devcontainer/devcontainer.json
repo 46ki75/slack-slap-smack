@@ -1,0 +1,32 @@
+{
+  "name": "Template Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "GitHub.vscode-pull-request-github",
+        "github.vscode-github-actions",
+        "usernamehw.errorlens",
+        "Gruntfuggly.todo-tree",
+        "christian-kohler.path-intellisense",
+        "ms-azuretools.vscode-docker",
+        "DavidAnson.vscode-markdownlint",
+        "yzhang.markdown-all-in-one",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [],
+  "features": {
+    "ghcr.io/devcontainers-extra/features/starship": {},
+    "ghcr.io/devcontainers/features/github-cli": {},
+    // AWS
+    "ghcr.io/devcontainers/features/aws-cli": {},
+    // Node.js
+    "ghcr.io/devcontainers/features/node": {}
+  }
+}
