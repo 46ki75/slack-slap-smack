@@ -7,7 +7,7 @@ import type {
 import { LambdaClient, InvokeCommand } from "@aws-sdk/client-lambda";
 import { createHmac, timingSafeEqual } from "node:crypto";
 
-const verifySlackSignature = ({
+export const verifySlackSignature = ({
   signingSecret,
   timestamp,
   body,
