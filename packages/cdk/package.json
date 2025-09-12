@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@types/node": "22.7.9",
-    "aws-cdk": "2.1027.0",
+    "aws-cdk": "2.1029.1",
     "esbuild": "^0.25.9",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
